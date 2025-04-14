@@ -43,3 +43,20 @@ object miAsserter {
     }
 
 }
+
+object roque {
+  var rutina = {}
+  var ave = pepita
+
+  method rutina(_rutina) {
+    rutina = _rutina
+  }
+
+  method ave(_ave) {
+    ave = _ave
+  }
+
+  method entrenar() {
+    rutina.apply(ave)
+  }
+}
